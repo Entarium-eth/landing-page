@@ -1,0 +1,71 @@
+
+body {
+  background: radial-gradient(circle at center, #0e0d1b 0%, #1a1a2e 100%);
+  color: #eaeaea;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.ritual-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.orb {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  transition: 0.3s;
+}
+
+.orb:hover {
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+}
+
+input, textarea {
+  background: transparent;
+  border: none;
+  width: 90%;
+  color: #eaeaea;
+  font-size: 1.1em;
+  text-align: center;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.checkbox {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  padding: 15px;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #8470ff;
+}
